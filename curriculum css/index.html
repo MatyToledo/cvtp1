@@ -1,0 +1,92 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cv">
+  <img src="imagenes/IMG_0091.jpg" alt="foto-de-perfil" class="imagen">
+
+  <h1>Matias Toledo</h1>
+
+  <div class="info">
+    <p>Email: matytoledo@gmail.com | Tel: 11 5636 0859</p>
+    <p>Dirección: Buenos Aires , Merlo</p>
+  </div>
+
+  <div class="section">
+    <h2>Perfil</h2>
+    <p> Técnico Electromecánico con sólida trayectoria en mantenimiento preventivo/correctivo, automatización de procesos y ejecución de proyectos industriales. Poseo competencias transversales en el desarrollo de soluciones electrónicas y sistemas electromecánicos complejos. Complementariamente, cuento con experiencia en la gestión de emprendimientos audiovisuales y me encuentro expandiendo mis capacidades técnicas hacia el desarrollo e implementación de plataformas web. 
+
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>Experiencia</h3>
+    <ul>
+      <li><strong>Metalurgica Masini</strong> - Técnico en mantenimiento (2025 - Actualidad)</li><br>
+      
+        <li class="itemconimagen">
+        <span><strong>Honda</strong> - Pasantía (2023 - 2024 )</span>
+        <a href="https://leloir.honda.com.ar/frontend/concesionarios/imagenes/image/873-Home-Leloir.png" target="_blank">
+          <img src="https://leloir.honda.com.ar/frontend/concesionarios/imagenes/image/873-Home-Leloir.png" class="logo"> </li>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>Educación</h3>
+    <ul>
+      <li>Técnico Electromecánico - Escuela Técnica n°2 de Merlo (2024)</li>
+      <li> Licenciatura en desarrollo web - Universad UNO del Oeste , Merlo </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h3>Habilidades</h3>
+    <ul>
+      <li>Electricidad</li>
+      <li>Automatización</li>
+      <li>Trabajo en equipo</li>
+      <li>Liderazgo</li>
+      <li>Conocimientos técnicos y prácticos</li>
+      <li>Responsabilidad</li>
+    </ul>
+  </div>
+<hr>
+  <div class="section">
+  <h3> Contacto </h3>
+    <form action="/enviar-respuesta" method="post"> 
+      <label for="Nombre"> Nombre</label>
+      <input type="text" id="nombre" placeholder="Ingrese su nombre" required> <br>
+
+      <label for="Apellido"> Apellido </label>
+      <input type="text" id="Apellido" placeholder="Ingrese su Apellido" required> <br>
+
+      <label for="Dni"> Dni </label>
+      <input type="text" id="Dni" placeholder="xx.xxx.xxx" required> <br>
+
+      <label for="Email"> Email </label>
+      <input type="text" id="Email" placeholder="Ejemplo@gmail.com" required> <br>
+      <button type="submit"> Enviar </button>
+    </form>
+  </div>
+<hr>
+    <div class="section">
+      <h4> Redes Personales </h4>
+        <a href="https://www.instagram.com/maty_toled0/" target="_blank" rel="noopener noreferrer"> Mi Instagram Personal</a> <br>
+        <a href="https://www.linkedin.com/in/matias-toledo-a278271a2/" rel="noopener noreferrer"> Mi Linkedin</a>
+    </div>
+
+    <footer class="footer"> 
+      <p> <small> 2026 - Matias Emanuel Toledo </small></p>
+    </footer>
+</div>
+
+</body>
+</html>
